@@ -1,6 +1,6 @@
 dayjs.extend(window.dayjs_plugin_advancedFormat);
 
-let currentHour = dayjs().format('h');
+let currentHour = dayjs().hour();
 let today = dayjs().format('dddd,  MMMM Do');
 $("#currentDay").text(today);
 
